@@ -14,7 +14,10 @@ export default function Home() {
             </Head>
             <main>
                 <header className={styles.head}>
-                    <h1>Double quote</h1>
+                    <div className={styles.headerHero}>
+                        <h1>Double quote</h1>
+                        <button id={styles["act-btn"]}>Sign up</button>
+                    </div>
                     <svg
                         width="353"
                         height="272"

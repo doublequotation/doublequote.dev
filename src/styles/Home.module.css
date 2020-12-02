@@ -13,6 +13,13 @@
 .head h1 {
     font-size: 80px;
 }
+
+#act-btn {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    border-radius: 5px;
+}
+
 .market-text {
     width: calc(80%);
     margin: auto;
