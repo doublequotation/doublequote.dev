@@ -18,17 +18,13 @@ function MyApp(page) {
                     </li>
                 </ul>
             </nav>
-            <div
-                className={() => {
-                    if (page.router.route == "/") {
-                        return "content-w-banner";
-                    } else {
-                        return "content";
-                    }
-                }}
+            <main
+                className={
+                    page.router.route === "/" ? "cotent-w-banner" : "content"
+                }
             >
                 <Component {...pageProps} />
-            </div>
+            </main>
         </>
     );
 }
