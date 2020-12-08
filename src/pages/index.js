@@ -16,7 +16,12 @@ export default function Home() {
                 <header className={styles.head}>
                     <div className={styles.headerHero}>
                         <h1>Double quote</h1>
-                        {/* <button id={styles["act-btn"]}>Sign up</button> */}
+                        <button
+                            id={styles["act-btn"]}
+                            onClick={() => (location.href = "/docs#setup")}
+                        >
+                            Sign up
+                        </button>
                     </div>
                     <svg
                         width="353"
@@ -32,7 +37,7 @@ export default function Home() {
                         />
                     </svg>
                 </header>
-                {/* <article className={styles["market-text"]}>
+                <article className={styles["market-text"]}>
                     <div id={styles["text-1"]}>
                         <h2>A way of storing information</h2>
                         <p>
@@ -46,7 +51,7 @@ export default function Home() {
                             <b>Double quote</b> is compeletely open source!
                             Every line of code is all open to the public.
                         </p>
-                        <button>Sign up</button>
+                        <button>Github</button>
                     </div>
                 </article>
                 <article className={styles.teams}>
@@ -55,10 +60,15 @@ export default function Home() {
                         Never has it been easier to work with a team and share
                         files.
                     </p>
-                </article> */}
+                </article>
                 <article className={styles["act-now"]}>
-                    <h1>Coming soon</h1>
-                    {/* <button id={styles["act-now"]}>Sign up now</button> */}
+                    <h1>Get started now</h1>
+                    <button
+                        id={styles["act-now"]}
+                        onClick={() => (location.href = "/docs#setup")}
+                    >
+                        Sign up now
+                    </button>
                 </article>
                 <footer className="foot">
                     <a

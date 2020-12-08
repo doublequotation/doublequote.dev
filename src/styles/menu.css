@@ -1,6 +1,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 500;
     height: fit-content;
     padding: 15px;
     background-color: black;
@@ -16,7 +17,11 @@
     display: flex;
     margin-left: 5em;
 }
-
+@media screen and (max-width: 530px) {
+    .nav-items {
+        margin-left: 0px;
+    }
+}
 .nav-items li {
     padding-right: 1em;
     font-size: 18px;

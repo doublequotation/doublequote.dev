@@ -10,25 +10,21 @@ function MyApp(page) {
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    {/* <li>
+                    <li>
                         <a href="/about">About</a>
                     </li>
                     <li>
                         <a href="/docs">Docs</a>
-                    </li> */}
+                    </li>
                 </ul>
             </nav>
-            <div
-                className={() => {
-                    if (page.router.route == "/") {
-                        return "content-w-banner";
-                    } else {
-                        return "content";
-                    }
-                }}
+            <main
+                className={
+                    page.router.route === "/" ? "cotent-w-banner" : "content"
+                }
             >
                 <Component {...pageProps} />
-            </div>
+            </main>
         </>
     );
 }
