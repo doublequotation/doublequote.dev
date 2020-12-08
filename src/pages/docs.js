@@ -10,6 +10,10 @@ export default () => {
             <main className={styles.article}>
                 <h1 id={styles["page-title"]}>Docs</h1>
                 <h2 id="basics">Basics of Quote</h2>
+                <h4>
+                    FOR RIGHT NOW YOU CAN ONLY ACCESS QUOTE THROUGH THE
+                    TERMINAL. THIS IS SUBJECT TO CHANGE IN THE NEAR FUTURE.
+                </h4>
                 <article>
                     <div className={styles.main}>
                         <p>
