@@ -19,6 +19,12 @@ a {
     margin-top: 5em;
     margin-left: 6em;
 }
+@media screen and (max-width: 530px) {
+    .content {
+        margin-left: 10px;
+    }
+}
+
 .content-w-banner {
     margin-top: 5em;
 }
