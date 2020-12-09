@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Not found | Double quote</title>
+                <title>Not found | Double Quote</title>
                 <meta
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"
